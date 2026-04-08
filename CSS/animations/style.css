@@ -1,0 +1,48 @@
+.box{
+    width: 400px;
+    height: 200px;
+    background-color: antiquewhite;
+    /* animation-name: boxWidth, fontAnimation;
+    animation-duration: 2s;
+    animation-delay: 0;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 7;
+    animation-direction: alternate; */
+
+    animation: bgColor 5s ease-in 0s infinite normal;
+}
+
+@keyframes fontAnimation{
+    form{ font-size:12px; }
+    to{font-size:35px;}
+}
+
+@keyframes boxWidth{
+    form{
+        width:50px;
+        background-color: antiquewhite;
+    }
+    to{
+        width:500px;
+        background-color: green;
+        border-radius: 50%;
+        font-size:35px;
+    }
+}
+
+@keyframes bgColor{
+    0%{
+        background-color: aliceblue;
+    }
+     40%{
+        background-color:aqua;
+    }
+
+    75%{
+        background-color: blue;
+    }
+
+    100%{
+        background-color: brown;
+    }
+}
