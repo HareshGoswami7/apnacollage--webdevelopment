@@ -1,0 +1,46 @@
+.header{
+    height: 80px;
+    background-color: pink;
+    display: grid;
+    grid-template-rows: repeat(1,1fr);
+    grid-template-columns: repeat(10,1fr);
+    margin-bottom: 10px;
+}
+
+.bodypart{
+    height: 700px;
+    background-color: yellow;
+    border: 1px solid black;
+
+}
+
+
+.sidebar,.nav, .main, .ads{
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    border: 1px solid black;
+}
+
+.sidebar{
+    height: 700px;
+    width:25%;
+    background-color: pink;
+     display: inline-grid;
+    grid-template-rows: repeat(10, 1fr);
+    grid-template-columns: repeat(3,1fr);    
+   
+
+}
+
+.nav{
+    height: 50px;
+    width: 50%;
+    background-color: pink;
+    
+    display: inline-grid;
+    grid-template-rows: 1fr;
+    grid-template-columns: repeat(6,1fr);
+
+}
+

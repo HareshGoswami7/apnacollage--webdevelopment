@@ -1,0 +1,23 @@
+div{
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    margin: 10px;
+}
+
+.one{
+    background-color: aqua;
+    position: relative;
+    z-index: -1;
+}
+
+.two{
+    background-color: blueviolet;
+    position: absolute;
+    top:200px;
+    z-index: 0;
+}
+
+.three{
+    background-color: brown;
+}
